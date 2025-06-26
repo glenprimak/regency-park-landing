@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Regency Park | Exclusive Luxury Townhomes</title>
+    <!-- Tailwind CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Elegant Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet" />
+
+    <style>
+      html {
+        font-family: 'Inter', sans-serif;
+      }
+      h1, h2, h3 { font-family: 'Playfair Display', serif; }
+      .bebas { font-family: 'Bebas Neue', cursive; }
+      /* Hero background image */
+      .hero-section {
+        background: linear-gradient(rgba(11, 17, 31, 0.5), rgba(11, 17, 31, 0.5)),
+          url('https://uc1e0fcdc228e2b027e4c5e539fe.previews.dropboxusercontent.com/p/thumb/ACqXsGhGjkteEuN1-mZZ-iT9KobvCVNVnJUCfc9DYITLS-873qnbQWJHhq9sP1-hC7KTG5f-jaVGfDDbj6Y5jJNi-4T-9Xni5_d0iOIzItjESchGLft75z91dxvMS3IH77T_vvc8pXwxk5-4TiWsPGCVTHHKdxaBhcRb9Q9tCxTPAFYhHuI4pQqom1GbuSipcKbWVkvN-TSeTeaK1Ql22k2InoMsbBhaRlTINZYrT0YbeYmEWsHSccLrVW8Lanv3NcBdWPbYg0jnxTsHKsZIXqmNQIjCiewWl2iWK88QEplxpd_oXAO7U95jwnHlA3-ZY5aWVPSqggwjmrnr3C4RYYACjn_EpVutE38GwHMUmn8A0WMl0autZe2xX4sjz0pBWT4W3Jj8uQTz1-aPSy5CXWeORv3tJbhPGyD1O9BJS9qZX5YKATDZTJruqCUwGllkMJaI8nViD9AUzLy6mDjLSDQ3j48b2fGCz_wLErXo9nTFLdhKF9AWxvv1mZOCvoTVhwV-rFGJkA9JrAkkowVByEmse-005K5xMT4aIeGuizOJUeBXH64eHdalJ3spm27-_NQtwL_AqlSCzGe8zDUEIPRcpGv2_X7xdHjUmW1J9XFMdw/p.jpeg')
+          center/cover no-repeat;
+      }
+      /* Luxe card styling */
+      .lux-card {
+        background:#fffaf2; /* parchment */
+        border:1px solid #e4d0a4; /* subtle gold border */
+        border-radius:1.5rem;
+        padding:2rem;
+        box-shadow:0 10px 20px rgba(0,0,0,0.08);
+        transition:transform .3s ease, box-shadow .3s ease;
+      }
+      .lux-card:hover {
+        transform:translateY(-4px);
+        box-shadow:0 18px 36px rgba(0,0,0,0.14);
+      }
+      .lux-card h3 {color:#8b6d47;}
+    </style>
+  </head>
+  <body class="bg-white text-gray-900 antialiased">
+    <!-- ───────────────────── Hero ───────────────────── -->
+    <section class="hero-section relative h-screen flex items-center justify-center text-center">
+      <div class="absolute inset-0"></div>
+      <div class="relative z-10 px-6 flex flex-col items-center">
+        <!-- Wordmark image -->
+          <img src="https://i.imgur.com/fEu7D1n.png" alt="Regency Park" class="h-56 md:h-72 w-auto drop-shadow-[0_10px_25px_rgba(0,0,0,0.4)]" style="filter: brightness(0) invert(1);" />
+
+        <p class="mt-6 text-white text-lg md:text-xl tracking-widest uppercase font-medium bebas">24 Exclusive Townhomes in Victoria Park — Coming Soon</p>
+
+        <a href="#register" class="bebas inline-block bg-white text-gray-900 font-semibold py-2 px-6 mt-8 rounded-full shadow-lg hover:shadow-2xl hover:-translate-y-1 transition-all text-lg md:text-xl">Join the Waitlist</a>
+      </div>
+    </section>
+
+    <!-- ─────────────────── Highlights ─────────────────── -->
+    <section class="py-20 px-6 md:px-12 bg-gray-50">
+      <div class="max-w-5xl mx-auto grid gap-12">
+        <h2 class="text-4xl md:text-5xl font-semibold text-center mb-4">Why&nbsp;Regency&nbsp;Park?</h2>
+        <p class="text-center text-lg text-gray-600 max-w-3xl mx-auto">A curated collection of modern townhomes where sophisticated design meets the ease of turnkey living in charming Victoria&nbsp;Park.</p>
+
+        <div class="grid md:grid-cols-2 gap-10">
+  <!-- Prime Location -->
+  <div class="lux-card overflow-hidden">
+    <img src="https://59d27daa.delivery.rocketcdn.me/wp-content/uploads/2023/07/Victoria-Park-Neighborhood-miami-History.jpg" alt="Prime Location" class="w-full h-48 object-cover rounded-2xl mb-5" />
+    <h3 class="text-xl font-semibold mb-3 text-center">Prime Location</h3>
+    <p class="text-center">Nestled in the heart of Victoria Park, just minutes from Las Olas Boulevard, downtown Fort Lauderdale, and under 10 minutes to the beach.</p>
+  </div>
+  <!-- Rooftop Terrace -->
+  <div class="lux-card overflow-hidden">
+    <img src="https://ucc5dabf37d96ba6da75dd80e23f.previews.dropboxusercontent.com/p/thumb/ACrNmbB9nDr4AKwk1Iaq0fT_npCCBsgZXwBPPuXoOMb9NG_RHaNX6NoYb57OrC83KnAkj7pZ8sUr2QN1DTer4ScqLo-7mxOtgCjHZ9y9ZWAksOqfwFiE-8hGb7Kd2ncHcHcGPlUPkYJWJwu3xmAamdE5oFVeIA9tpjUL38uWOTYkE1GC9_Y1m9J-WaRWkiIwLiNrHK462is_PmW9MVU7QsIEBkmiELRzYrfz-qC6Wl63hZ1OHWoV4iZkXYcOym1oqaj_1qq__d9GOYs8kJDIcF05p4eyujO82jFOeu9XcXsqHVM7d0xKPS0R8jIqi8b-o6XwmVDcJR7cCq7oTcHc5PKspfPuEXcNI1nOeJAMQy8-npOkJACk8O67dcoVwmAECs4rm6GCvoCYZDhUFUwrTWmfdHY9qod3VqLYcw0FYixri_hAo9r_f2YTxgTerdRX9c40rZE88uFanxvo8c2fJNFIdvNa43l68Q5DmYFGZuvN6fTpq4jeyYdhEyvhHDBrG5URPxmR7wS-fhdGHrggIBNPhBZ3yUeIcjNS-IpK3eA7KqwFKcsWyv0QlD4Ch1WFJBf4AF4vZL3hmhmz69e7vGlSfJQ5DMHAv-KfqI8j45R5qGXcffN2u32ZUoa0WoPqmdWWxZsTvdFtc2s-LVoWX69Y99V8HuZ4Y0AGko_KGlRzKrUwIkMZTe0gWIefAQVhQukDF0X0zZpu5-NdowppWSiEV7xy3c7aDyVFTXGyf2wouarFRiufWUHq_vtE0B0kzXYVAs50IVkQC-P2AGaBbuKF/p.jpeg" alt="Rooftop Terrace" class="w-full h-48 object-cover rounded-2xl mb-5" />
+    <h3 class="text-xl font-semibold mb-3 text-center">Rooftop Terrace</h3>
+    <p class="text-center">Private rooftop terrace perfect for entertaining and enjoying sunset views.</p>
+  </div>
+  <!-- 2-Car Climate-Controlled Garages -->
+  <div class="lux-card overflow-hidden">
+    <img src="https://ucef5fbe96b2ba0f366959593d6c.previews.dropboxusercontent.com/p/thumb/ACqdYkGcfSNnT48T2DK75bcBx93QgA6QNtJ7jIifMNzsO3Fn0BZgVmR0UugzwC4i-Ka3otslejjOn5qXT7pTp3bMuTQ4JWmJjsAvK8D9-zlTke9SEYrvwcx7x2YH_C5iy7QepqryPOEh8cB8VHbLFURkewqGZBUYSphFlbPqA1Lgk6beoDyM6iFDE4Ohqf3bQPJxzuk0NFkpWGVz7qeGKMNNROaV3VtMeUVXxvQx1bzFymsTu_eOsCdzCHPp4qyJiDVdRpfL4HsdWGGowFp-d1DBSAlxH1MW3LzHNTMTnZ1MsnZKJtlvLYdu-027zf_T2gkDP60dxFoI7jxBZnRqtH-bSwg88e1zyhiREOKFNFF3aDi2cJ30ceZZPhzSlic_OcoxTCYxui37ram537SbRAf2UvthFpqXnkKLpuJGHNyEo6eR8KE_fAhdWlR57VBqBgOWkW7fOOcaDiQgEGYTB0IsyqWjW8K9cJp2qHQO1LN5-leur-XQ0JToIGcqvlEkG4qyt4927fZNB2ZNLQFBNzd0F6hPjB_Bu3JRgytd3YGlHPgkoG7HIY-ZgYPo5gW9hB4SKCauf20Ill01-wR7E1zVVkQg13qYewyPUYMTN5BDwRjT9aG37lUsrgEiIaPd8HAM6XZbzNt9qYj1X95muVmzTnt7mmZxmTFUQJDfBJn_3QOiYtczFOQP4Asd8OKar-E3X35S09rh5uZKkZwoqPmj-RVm3m0004LPbN5a6g4o3MqujiuFpYI6cess3gU-j4vYu0HGuVdRDXRepv1eo1gZ/p.jpeg" alt="2-Car Climate-Controlled Garages" class="w-full h-48 object-cover rounded-2xl mb-5" />
+    <h3 class="text-xl font-semibold mb-3 text-center">2-Car Climate-Controlled Garages</h3>
+    <p class="text-center">Secure, temperature-controlled parking offers peace of mind and protection for your vehicles.</p>
+  </div>
+  <!-- Pool & Spa with Outdoor Kitchen -->
+  <div class="lux-card overflow-hidden">
+    <img src="https://uc20b8c2b177e04df43619613b5f.previews.dropboxusercontent.com/p/thumb/ACpCXrGyd2jo3koDOfFQko46jgno1Mh12YXRhiQkNd5bjDkGnzoTBEVZAZm9NPtk63EoTkVDrCZ7LzNmLHznxNLS4YQxXOmkE1WauVOS3eZTOSFhfJfLVkLQF07z9EafZ00gZQ-JlgPwuZKsi-_6F0TZlDTigQRKSwcW0xNEYx6NCxumIyrKQ6B1Y8u7wRlC6JC4-z1HotMaNXs7INu4NPNUeSeF8ppJ-PHGted_1BQFrIWB7go-WWkzyiO8eyVX_bIUp_ZJ_EDka2R6edl0t6-BkKcba5rNYDYNxGE5-roPs4lg7VojDlpbrCMkz8fsOPNT__xLanQ7bpT980yy9-41_Bfx3SV0FgcHaHLcOcwFsPQaf6neJ72itoWPBqgPP0tUUViCq6Gkwn2M6VyBlJ1Wfa8H3QhdlIsOKLZFEBCAA4nH86wv7dLRGo6gTuToEBA_m5CZK3faQudOL9I9kAfB1L8H9hiwOwUUKb7BBEXQbXwKrm91kHZyKQ-lm3HfC7TSEKQ8RFjJ2IBiBH1iY2FlkVl71n6AGtR9lWKQVPBAaHyaNyIln4sQCqMsqJph9Cb_1gB6OqxtMfpH9MTk3asPLh7vmeNr6KDh6f4dHBxaSc5sQpc9cQCZM_DxwuboTBZ_OdHS6XP-ZiDw_qjoM3jdNwcfpMXEgDTvousF4TzDjuctaCXS-l9nn4kiMcTtzKbPckTCOHdoQSbXtXSN4hIDsxtY8jEwr_v5emYtbhZEvExQ1fglX9krvvF6yMKYCMRVUdJ2uoysZRSupVLlZyL_/p.jpeg" alt="Pool & Spa with Outdoor Kitchen" class="w-full h-48 object-cover rounded-2xl mb-5" />
+    <h3 class="text-xl font-semibold mb-3 text-center">Pool &amp; Spa with Outdoor Kitchen</h3>
+    <p class="text-center">Enjoy a resort-style pool, spa, and fully-equipped outdoor kitchen for the ultimate in relaxation and al fresco dining.</p>
+  </div>
+  <!-- Co-Working Space -->
+  <div class="lux-card overflow-hidden">
+    <img src="https://uc456eb0c3674015d9082b252b3c.previews.dropboxusercontent.com/p/thumb/ACop49VNTwBjfbsnKfOG7VCZmhPBWKz3Dc0YHeCPi66hrV3-Q8JQwfQafs3d0mQx-OehZbBHaXdfmWZsURDSRvTIDZQJOrqho-f_qPZzo2Vz0rHEhfyTNpXvNvV7AxM3XJy9RLmlSmXSH--Gl4PzlXP7MNk5Fjargpco0REKqpu42P1Y9ZD2wDqkLSpMePkYs35PF6B_7cE-6hHqAZvfXEEMBLmuNlPMCFE81oAuro6GRpx1oyoxQozRiZGmPHBG5M_MvqV5dofAq7Kxy4-UqT4pXDEytPaJ6YKixKAntshVJNgcGHxF4qH-0eAvlPBhPawieuuIUE24moe6uuefxorI0Sf6nGs1k3FaA44y5HF5vfIjg86IAHUdX_rv2jQkWix0rUaURhzPNXz4JAW6MNhnSGMawCegKwmlPUcu1rKcchly3Au-sz17oHSrdLWz_kaKaN25JEvh2HVXcfFoOb-31FG8DIVq3fWE-nrokafGkQ/p.jpeg" alt="Co-Working Space" class="w-full h-48 object-cover rounded-2xl mb-5" />
+    <h3 class="text-xl font-semibold mb-3 text-center">Co-Working Space</h3>
+    <p class="text-center">Dedicated lounge with high-speed Wi-Fi, privacy pods, and specialty coffee bar to boost productivity.</p>
+  </div>
+  <!-- Boutique Fitness Studio -->
+  <div class="lux-card overflow-hidden">
+    <img src="https://uce04bee181159bb396a6c2020e0.previews.dropboxusercontent.com/p/thumb/ACroXBG3xcEn7x8ZZvk7HjoLgf6zOqf8XGMLBlsFL34lCcRthodXecHH1lY_dHd7buMctEIb35GT1GD2gk4q_G1OqdOEGQPNQ1ucNBEc-PZhaV2eLQElhz9yhWSMNWDV0jgpVhpj1Qu8kADkOO1i9vf9Mz9gaDtSgf-FSWe9g4WbNfeDQTsuh3BqNa0qDTcXw2TZ6itJsALHDubRVn855hPZ4o-8nLzRTf2oMj06ri6AZO08GUtAzXhMU1_eBYrk1wTG5MLXpTfltKRjbvIs88fgK99M2g8WKGEFQJ6mbCz56pV4wzM02ElHlpRG1aU301NXEQjR6FDlTLA5Mt-XUvzhWTssmO2rN9CL9ZBMbjQWxY_UWdFj2-y6_KNqw1FxbDBp6liWpO24RwqXyZU0d0rA-vgun2Kp91HGDDQA8zdHjRQqAQ4lLpiYG82_ysyqlLBb632uY9SXfg7aKZB8Jzvzdgd7zdhvNzy4HG9H7yv7JceHflCHId2-ycLF8Ozvjt7yCwU4aQO2XnoSnae8OC1FDlx6AMQT2VZyYpH_2OL3giVeJ32Kf3wm_DvvuBZyjX-uxTh2HoMirFrTofEk8FzSLh6zV7XWa0NomEv1s2dtkL9L0bTvaRpCmZv5gaKDcJUP1cXG0MBHnAsMhqPFec5tvulKxdGMZHaf0J7rer1_Jm33zJxB-VlMLBYrP75vrd22j-jPxPPCjqA45XobFZ_4jvgHC0NvYjc_-W6pDWgRvXUgAYbIkYl5WogbtNHpBHHPjk1AWh-g24e1qK7G9yux/p.jpeg" alt="Boutique Fitness Studio" class="w-full h-48 object-cover rounded-2xl mb-5" />
+    <h3 class="text-xl font-semibold mb-3 text-center">Boutique Fitness Studio</h3>
+    <p class="text-center">State-of-the-art studio featuring cardio, strength training, Peloton bikes, and yoga space right at your doorstep.</p>
+  </div>
+  <!-- Smart-Home Ready -->
+  <div class="lux-card overflow-hidden">
+    <img src="https://www.easyagentblogs.com/wp-content/uploads/2024/01/Smart-House-Flat-Illustration.jpeg" alt="Smart-Home Ready Illustration" class="w-full h-48 object-cover rounded-2xl mb-5" />
+    <h3 class="text-xl font-semibold mb-3 text-center">Smart-Home Ready</h3>
+    <p class="text-center">Pre-wired for full home automation, smart lighting, security, and climate control.</p>
+  </div>
+  <!-- Floor Plans -->
+  <a href="RegencyPark_FloorPlans_Digital (1).pdf" target="_blank" class="block">
+    <div class="lux-card overflow-hidden">
+      <img src="https://uc6d7941d3075fbf868b284f568e.previews.dropboxusercontent.com/p/thumb/ACpDIYX_0QOXJC-61RVF2si1TeEe9IWqhLxPyHmAXkh1kYD5OfpzWUMXhW16h3Z2tTuC0HISRnt--K40c4r7KVgip7nEucGpdbQyGolr-sXQd0oqIgOZGvUipAgPHLtRj-nUyLaYmpJ3AkMBoehxcwZYw-y0ngMt-f6OXgmr9_UxiW3hc7zzomdB5SNWWiCeLe89XButaclICHuQySzcyNcrulTJVIiE-K4IP9dbftiiBFPwTah_80JvGPadsuK1YQLKORDO0y4wcr-cKU7KGi2vscGvPaJu0FPDlU7825Vsyr5wvB32ZZa9XQIeNsnHikNAZkiKbXj7prP4z9M1bFlPUpN_OV0g7quB3JFOaQSsLC0NMY1YW4im7XkuftS71StbKkvW_xRj3VAG19F_CH5YylY8qO6kjI43nknocEneMA5GyGyMzbxhItAyWyo7SpC83KaZtWL_XpDa4rJ7jffLDVbJPKMxWXcYvjK55R-W8dy5xyxR6GVOuGXA62X8tH0v3gKpklIfPx6IEmulyzkm0fITXI8Ficw03GDuVcvaLjNjqoauEX6soVdrHaHRqMwK9VWz7_apWqawkYgorlQ8RcwHNtviCG2YTzsCquKo3_NAwPBNvfHKFGSNLw-9GMCus6nBvfNvlLV0_U7mPYKTF2CNevmTz1OJhgra5deUQNFm0SDuDOoEIkcO54TBoxNaYJzZJzbJYmimY2f53tUmQ3wo4-aPaJJjfFSOTQ7i89mmmZtJ5KAzDXMttlX7sY-z0CZhCHcClQlZgRoZqtHH/p.jpeg" alt="Floor Plans" class="w-full h-48 object-cover rounded-2xl mb-5" />
+      <h3 class="text-xl font-semibold mb-3 text-center">Floor Plans</h3>
+      <p class="text-center">Thoughtfully designed layouts with flexible living spaces and optional upgrade paths.</p>
+    </div>
+  </a>
+</div>
+      </div>
+    </section>
+    <!-- ───────────────── Register ───────────────── -->
+    <section id="register" class="py-20 px-6 md:px-12 bg-white">
+      <div class="max-w-md mx-auto text-center">
+        <h2 class="text-3xl md:text-4xl font-semibold text-center mb-6 bebas">Join the Waitlist</h2>
+        <p class="mb-6 text-gray-700">Be the first to know when Regency Park townhomes become available. Sign up today!</p>
+        <form action="#" method="POST" class="flex flex-col gap-4">
+          <input type="text" name="firstName" placeholder="First Name" required class="px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-amber-400" />
+          <input type="text" name="lastName" placeholder="Last Name" required class="px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-amber-400" />
+          <input type="email" name="email" placeholder="Email Address" required class="px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-amber-400" />
+          <textarea name="message" placeholder="Your Message" rows="4" class="px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-amber-400"></textarea>
+          <button type="submit" class="bg-amber-400 text-white px-6 py-3 rounded-lg font-semibold hover:bg-amber-500 transition">Notify Me</button>
+        </form>
+      </div>
+    </section>
+</section>
